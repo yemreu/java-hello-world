@@ -163,6 +163,20 @@ public class JavaSwingGUI {
         dataPanel.setLocationRelativeTo(null);
         dataPanel.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dataPanel.setVisible(true);
+        
+        JavaSwingGUITextSelectWindow textSelect = new JavaSwingGUITextSelectWindow();
+        textSelect.setSize(600,300);
+        textSelect.setTitle("textSelect");
+        textSelect.setLocationRelativeTo(null);
+        textSelect.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        textSelect.setVisible(true);
+        
+        JavaSwingGUIListeEkleme listeEkle = new JavaSwingGUIListeEkleme();
+        listeEkle.setSize(400,400);
+        listeEkle.setTitle("listeEkle");
+        listeEkle.setLocationRelativeTo(null);
+        listeEkle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        listeEkle.setVisible(true);
     }
     
 }
