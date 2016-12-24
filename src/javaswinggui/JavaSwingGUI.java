@@ -177,6 +177,13 @@ public class JavaSwingGUI {
         listeEkle.setLocationRelativeTo(null);
         listeEkle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         listeEkle.setVisible(true);
+        
+        JavaSwingGUICardLayout cardLayout = new JavaSwingGUICardLayout();
+        cardLayout.setSize(400,300);
+        cardLayout.setTitle("cardLayout");
+        cardLayout.setLocationRelativeTo(null);
+        cardLayout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        cardLayout.setVisible(true);
     }
     
 }
