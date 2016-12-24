@@ -184,6 +184,15 @@ public class JavaSwingGUI {
         cardLayout.setLocationRelativeTo(null);
         cardLayout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         cardLayout.setVisible(true);
+        
+        JavaSwingGUIMenu menu = new JavaSwingGUIMenu();
+        menu.setSize(600,400);
+        menu.setTitle("menu");
+        menu.setJMenuBar(menu.menuBar());
+        menu.setContentPane(menu.kapOlustur());
+        menu.setLocationRelativeTo(null);
+        menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menu.setVisible(true);
     }
     
 }
