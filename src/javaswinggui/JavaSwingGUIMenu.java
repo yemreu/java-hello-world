@@ -52,7 +52,7 @@ public class JavaSwingGUIMenu extends JFrame implements ActionListener, ItemList
         menu.add(menuItem);
         
         ImageIcon icon = ikonOlustur("/resim/sun_java.png");
-        menuItem = new JMenuItem("yazı ve ikon alan menu");
+        menuItem = new JMenuItem("yazı ve ikon alan menu",icon);
         menuItem.setMnemonic(KeyEvent.VK_B);
         menuItem.addActionListener(this);
         menu.add(menuItem);

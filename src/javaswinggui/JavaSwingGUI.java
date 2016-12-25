@@ -193,6 +193,12 @@ public class JavaSwingGUI {
         menu.setLocationRelativeTo(null);
         menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         menu.setVisible(true);
+        
+        javax.swing.SwingUtilities.invokeLater(new Runnable(){
+            public void run(){
+                JavaSwingGUIProgressBar.window();
+            }
+        });
     }
     
 }
