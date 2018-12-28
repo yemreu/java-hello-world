@@ -1,1 +1,1 @@
-Kaynak: Kim Korkar Java'dan
+Kaynak: Kim Korkar Java'dan, abaküs
